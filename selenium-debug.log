@@ -1,0 +1,27 @@
+16:35:56.248 INFO - Launching a standalone Selenium Server
+16:35:56.446 INFO - Java: Oracle Corporation 25.144-b01
+16:35:56.446 INFO - OS: Windows 7 6.1 x86
+16:35:56.456 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+16:35:56.510 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:35:56.510 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:35:56.517 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
+16:35:56.517 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+16:35:56.518 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+16:35:56.821 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:35:56.821 INFO - Selenium Server is up and running
+16:35:57.114 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Sample Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+16:35:57.130 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Sample Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 18267
+Only local connections are allowed.
+16:36:01.790 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Sample Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+16:36:01.801 INFO - Executing: [get: https://localhost:3000])
+16:36:04.589 INFO - Done: [get: https://localhost:3000]
+16:36:06.606 INFO - Executing: [find elements: By.cssSelector: body])
+16:36:06.668 INFO - Done: [find elements: By.cssSelector: body]
+16:36:06.673 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (87bbbaf3c69272178323ac44f7511e89)] -> css selector: body]])
+16:36:06.694 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (87bbbaf3c69272178323ac44f7511e89)] -> css selector: body]]
+16:36:06.701 INFO - Executing: [get title])
+16:36:06.708 INFO - Done: [get title]
+16:36:06.717 INFO - Executing: [delete session: 595ab33f-b77e-4431-8d0d-eb1d5ba9f1f6])
+16:36:07.721 INFO - Done: [delete session: 595ab33f-b77e-4431-8d0d-eb1d5ba9f1f6]

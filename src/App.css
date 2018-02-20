@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.form {
+  text-align: center;
+}
+
+.input, .button {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: default;
+}
