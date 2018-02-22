@@ -1,8 +1,8 @@
-**My-Credentials** is a react project to demonstrate testing with **enzyme** and **jest**.
+**My-Credentials** is a react project to demonstrate testing with **selenium** using **nightwatch.js**.
 
 ---
 **Useful Commands**
  - `npm install`  - to install all dependencies
  - `npm start`  - to start the application
- - `npm run test` - to run test files
- - `npm test -- --coverage` - to get a report on test coverage
+ - `npm run test-e2e` - to run test files
+
