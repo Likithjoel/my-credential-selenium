@@ -35,7 +35,14 @@ module.exports = {
       "desiredCapabilities": {
         "browserName": "chrome",
         "javascriptEnabled": true,
-        "marionette": true
+        "marionette": true,
+        "chromeOptions": {
+                "args": [
+                    "headless", "disable-gpu"
+                 ],
+                 "binary": "/usr/bin/google-chrome"
+              }
+
       }
     },
     "chrome": {
